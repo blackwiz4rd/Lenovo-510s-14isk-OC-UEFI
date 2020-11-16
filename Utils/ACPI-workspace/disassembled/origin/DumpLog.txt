@@ -1,0 +1,66 @@
+11:971  6:670  Found UEFI Acpi 2.0 RSDP at 8B2FE014
+11:971  0:000  Saving ACPI tables from RSDP 8B2FE014 to EFI\CLOVER\ACPI\origin ...
+11:971  0:000   8B2FE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+11:982  0:011    (Xsdt: 8B2CE188, Rsdt: 8B2CE0C4)
+11:982  0:000    8B2CE188: 'XSDT', 'CB-01', Rev: 1, Len: 212 -> XSDT.aml
+11:986  0:004    8B2CE0C4: 'RSDT', 'CB-01', Rev: 1, Len: 124 -> RSDT.aml
+11:990  0:004    Tables in Xsdt: 22
+11:990  0:000    0. 8B2EF000: 'FACP', 'CB-01', Rev: 5, Len: 268 -> FACP.aml
+11:995  0:004        (Dsdt: 8B2D5000, Facs: 8B255000, XDsdt: 8B2D5000, XFacs: 0)
+11:995  0:000        8B2D5000: 'DSDT', 'CB-01', Rev: 2, Len: 87201 -> DSDT.aml
+12:001  0:006        8B255000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+12:005  0:004    1. 8B2FD000: 'UEFI', 'CB-01', Rev: 1, Len: 566 -> UEFI.aml
+12:010  0:004    2. 8B2FC000: 'UEFI', 'CB-01', Rev: 1, Len: 66 -> UEFI.aml
+12:014  0:004    3. 8B2FB000: 'MSDM', 'CB-01', Rev: 3, Len: 85 -> MSDM.aml
+12:018  0:004    4. 8B2F6000: 'SSDT', 'CB-01', Rev: 2, Len: 19763 -> SSDT-0-CB-01.aml
+12:023  0:004    5. 8B2F5000: 'DBGP', 'CB-01', Rev: 1, Len: 52 -> DBGP.aml
+12:027  0:004    6. 8B2F4000: 'DBG2', 'CB-01', Rev: 0, Len: 84 -> DBG2.aml
+12:031  0:004    7. 8B2F3000: 'ASF!', 'CB-01', Rev: 32, Len: 165 -> ASF!.aml
+12:036  0:004    8. 8B2F2000: 'ASPT', 'CB-01', Rev: 7, Len: 52 -> ASPT.aml
+12:040  0:004    9. 8B2F1000: 'BOOT', 'CB-01', Rev: 1, Len: 40 -> BOOT.aml
+12:044  0:003    10. 8B2F0000: 'DBGP', 'CB-01', Rev: 1, Len: 52 -> DBGP.aml
+12:048  0:003    11. 8B2EE000: 'HPET', 'CB-01', Rev: 1, Len: 56 -> HPET.aml
+12:052  0:003    12. 8B2ED000: 'LPIT', 'CB-01', Rev: 1, Len: 148 -> LPIT.aml
+12:056  0:003    13. 8B2EC000: 'APIC', 'CB-01', Rev: 3, Len: 188 -> APIC.aml
+12:060  0:003    14. 8B2EB000: 'MCFG', 'CB-01', Rev: 1, Len: 60 -> MCFG.aml
+12:064  0:003    15. 8B2D4000: 'SSDT', 'CB-01', Rev: 2, Len: 410 -> SSDT-1-CB-01.aml
+12:068  0:004    16. 8B2D3000: 'SSDT', 'CB-01', Rev: 2, Len: 433 -> SSDT-2-CB-01.aml
+12:073  0:005    17. 8B2D2000: 'SSDT', 'CB-01', Rev: 2, Len: 1719 -> SSDT-3-CB-01.aml
+12:078  0:004    18. 8B2D1000: 'SSDT', 'CB-01', Rev: 2, Len: 3699 -> SSDT-4-CB-01.aml (Found hidden SSDT 7 pcs)
+12:082  0:004        * 89150718: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1719  53 53 44 54 B7 06 00 00 02 9F 50 6D 52 65 66 00 Internal length = 1719 -> SSDT-x4_0-Cpu0Ist.aml
+12:086  0:003        * 8914F618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 D2 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x4_1-ApIst.aml
+12:091  0:004        * 8914FC18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 69 50 6D 52 65 66 00 Internal length = 895 -> SSDT-x4_2-Cpu0Cst.aml
+12:095  0:003        * 8914ED98: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EE 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x4_3-ApCst.aml
+12:099  0:004        * 79AFEA18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2F 50 6D 52 65 66 00 Internal length = 142 -> SSDT-x4_4-Cpu0Hwp.aml
+12:104  0:004        * 79B2B498: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 01 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x4_5-ApHwp.aml
+12:107  0:003        * 79B2B318: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 89 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x4_6-HwpLvt.aml
+12:111  0:004  
+12:111  0:000    19. 8B2D0000: 'DMAR', 'CB-01', Rev: 1, Len: 168 -> DMAR.aml
+12:116  0:004    20. 8B2CF000: 'FPDT', 'CB-01', Rev: 1, Len: 68 -> FPDT.aml
+12:120  0:004    21. 8B2CD000: 'BGRT', 'CB-01', Rev: 1, Len: 56 -> BGRT.aml
+12:124  0:004    Tables in Rsdt: 22
+12:124  0:000    0. 8B2EF000: 'FACP', 'CB-01', Rev: 5, Len: 268
+12:124  0:000        (Dsdt: 8B2D5000, Facs: 8B255000, XDsdt: 8B2D5000, XFacs: 0)
+12:124  0:000        8B2D5000: 'DSDT', 'CB-01', Rev: 2, Len: 87201
+12:125  0:001        8B255000: 'FACS', Ver: 2, Len: 64
+12:125  0:000    1. 8B2FD000: 'UEFI', 'CB-01', Rev: 1, Len: 566
+12:125  0:000    2. 8B2FC000: 'UEFI', 'CB-01', Rev: 1, Len: 66
+12:125  0:000    3. 8B2FB000: 'MSDM', 'CB-01', Rev: 3, Len: 85
+12:125  0:000    4. 8B2F6000: 'SSDT', 'CB-01', Rev: 2, Len: 19763
+12:125  0:000    5. 8B2F5000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+12:125  0:000    6. 8B2F4000: 'DBG2', 'CB-01', Rev: 0, Len: 84
+12:125  0:000    7. 8B2F3000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+12:125  0:000    8. 8B2F2000: 'ASPT', 'CB-01', Rev: 7, Len: 52
+12:125  0:000    9. 8B2F1000: 'BOOT', 'CB-01', Rev: 1, Len: 40
+12:125  0:000    10. 8B2F0000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+12:125  0:000    11. 8B2EE000: 'HPET', 'CB-01', Rev: 1, Len: 56
+12:125  0:000    12. 8B2ED000: 'LPIT', 'CB-01', Rev: 1, Len: 148
+12:125  0:000    13. 8B2EC000: 'APIC', 'CB-01', Rev: 3, Len: 188
+12:125  0:000    14. 8B2EB000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+12:125  0:000    15. 8B2D4000: 'SSDT', 'CB-01', Rev: 2, Len: 410
+12:125  0:000    16. 8B2D3000: 'SSDT', 'CB-01', Rev: 2, Len: 433
+12:125  0:000    17. 8B2D2000: 'SSDT', 'CB-01', Rev: 2, Len: 1719
+12:125  0:000    18. 8B2D1000: 'SSDT', 'CB-01', Rev: 2, Len: 3699
+12:125  0:000    19. 8B2D0000: 'DMAR', 'CB-01', Rev: 1, Len: 168
+12:125  0:000    20. 8B2CF000: 'FPDT', 'CB-01', Rev: 1, Len: 68
+12:125  0:000    21. 8B2CD000: 'BGRT', 'CB-01', Rev: 1, Len: 56
